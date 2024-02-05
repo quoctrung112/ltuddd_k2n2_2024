@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/path_provider_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/path_provider_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/path_provider_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/path_provider_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/path_provider_android/intermediates/merged_res/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    }
+]

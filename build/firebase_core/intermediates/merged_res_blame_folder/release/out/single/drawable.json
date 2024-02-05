@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_core/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_core/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_core/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_core/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    }
+]

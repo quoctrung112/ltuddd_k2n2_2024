@@ -1,0 +1,438 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.untitled15"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:3:5-65
+11-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:3:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:4:5-60
+13-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:4:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:5:5-70
+14-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:5:19-67
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="16" /> -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:9:5-67
+17-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:9:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+18-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.firebase:firebase-iid:21.1.0] /Users/tronghung/.gradle/caches/transforms-3/365c2360bae04ee5654ed987b4895ec1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+19-->[com.google.firebase:firebase-iid:21.1.0] /Users/tronghung/.gradle/caches/transforms-3/365c2360bae04ee5654ed987b4895ec1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:21.1.0] /Users/tronghung/.gradle/caches/transforms-3/365c2360bae04ee5654ed987b4895ec1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:21.1.0] /Users/tronghung/.gradle/caches/transforms-3/365c2360bae04ee5654ed987b4895ec1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+21
+22    <permission
+22-->[androidx.core:core:1.10.1] /Users/tronghung/.gradle/caches/transforms-3/633184925f63cd6bf876126e067b3448/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.untitled15.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.10.1] /Users/tronghung/.gradle/caches/transforms-3/633184925f63cd6bf876126e067b3448/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.10.1] /Users/tronghung/.gradle/caches/transforms-3/633184925f63cd6bf876126e067b3448/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.untitled15.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.10.1] /Users/tronghung/.gradle/caches/transforms-3/633184925f63cd6bf876126e067b3448/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.10.1] /Users/tronghung/.gradle/caches/transforms-3/633184925f63cd6bf876126e067b3448/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+27
+28    <application
+29        android:name="android.app.Application"
+29-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:9:9-42
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.10.1] /Users/tronghung/.gradle/caches/transforms-3/633184925f63cd6bf876126e067b3448/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:10:9-43
+32        android:label="untitled15" >
+32-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:8:9-35
+33        <activity
+33-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:11:9-31:20
+34            android:name="com.example.untitled15.MainActivity"
+34-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:12:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:16:13-163
+36            android:exported="true"
+36-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:13:13-36
+37            android:hardwareAccelerated="true"
+37-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:17:13-47
+38            android:launchMode="singleTop"
+38-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:14:13-43
+39            android:theme="@style/LaunchTheme"
+39-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:15:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:18:13-55
+41
+42            <!--
+43                 Specifies an Android theme to apply to this Activity as soon as
+44                 the Android process has started. This theme is visible to the user
+45                 while the Flutter UI initializes. After that, this theme continues
+46                 to determine the Window background behind the Flutter UI.
+47            -->
+48            <meta-data
+48-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:23:13-26:17
+49                android:name="io.flutter.embedding.android.NormalTheme"
+49-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:24:15-70
+50                android:resource="@style/NormalTheme" />
+50-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:25:15-52
+51
+52            <intent-filter>
+52-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:27:13-30:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:28:17-68
+53-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:28:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:29:17-76
+55-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:29:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:34:9-36:33
+63            android:name="flutterEmbedding"
+63-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:35:13-44
+64            android:value="2" />
+64-->/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/android/app/src/main/AndroidManifest.xml:36:13-30
+65
+66        <service
+66-->[:cloud_functions] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[:cloud_functions] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:14:13-37
+70            <meta-data
+70-->[:cloud_functions] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.functions.FlutterFirebaseAppRegistrar"
+71-->[:cloud_functions] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-128
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:cloud_functions] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_functions/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[:firebase_auth] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+74-->[:firebase_auth] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_auth] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[:firebase_database] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+77-->[:firebase_database] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_database] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+79            <meta-data
+79-->[:firebase_storage] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+80-->[:firebase_storage] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_storage] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+82            <meta-data
+82-->[:cloud_firestore] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+83-->[:cloud_firestore] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:cloud_firestore] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+85            <meta-data
+85-->[:firebase_core] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+86-->[:firebase_core] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:firebase_core] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:15:13-17:85
+89                android:name="com.google.firebase.components:com.google.firebase.functions.FirebaseFunctionsKtxRegistrar"
+89-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:16:17-122
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:17:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:18:13-20:85
+92                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+92-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:19:17-111
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-functions:20.4.0] /Users/tronghung/.gradle/caches/transforms-3/327d68759b2eb2bbd1fbe7aaea7659a4/transformed/jetified-firebase-functions-20.4.0/AndroidManifest.xml:20:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+95                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+95-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-database:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/fe0530ad296109d955109824cc960446/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+98-->[com.google.firebase:firebase-database:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/fe0530ad296109d955109824cc960446/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/fe0530ad296109d955109824cc960446/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-database:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/fe0530ad296109d955109824cc960446/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+101                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+101-->[com.google.firebase:firebase-database:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/fe0530ad296109d955109824cc960446/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-database:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/fe0530ad296109d955109824cc960446/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-storage:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/6fcaa763f61a87a9509158ee5bd8b3e3/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
+104                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+104-->[com.google.firebase:firebase-storage:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/6fcaa763f61a87a9509158ee5bd8b3e3/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-storage:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/6fcaa763f61a87a9509158ee5bd8b3e3/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-storage:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/6fcaa763f61a87a9509158ee5bd8b3e3/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
+107                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+107-->[com.google.firebase:firebase-storage:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/6fcaa763f61a87a9509158ee5bd8b3e3/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-storage:20.3.0] /Users/tronghung/.gradle/caches/transforms-3/6fcaa763f61a87a9509158ee5bd8b3e3/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-firestore:24.9.1] /Users/tronghung/.gradle/caches/transforms-3/84e5c674902ef2451868e710ef65bf81/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:17:13-19:85
+110                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+110-->[com.google.firebase:firebase-firestore:24.9.1] /Users/tronghung/.gradle/caches/transforms-3/84e5c674902ef2451868e710ef65bf81/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:18:17-122
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-firestore:24.9.1] /Users/tronghung/.gradle/caches/transforms-3/84e5c674902ef2451868e710ef65bf81/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:19:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-firestore:24.9.1] /Users/tronghung/.gradle/caches/transforms-3/84e5c674902ef2451868e710ef65bf81/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:20:13-22:85
+113                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+113-->[com.google.firebase:firebase-firestore:24.9.1] /Users/tronghung/.gradle/caches/transforms-3/84e5c674902ef2451868e710ef65bf81/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:21:17-111
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-firestore:24.9.1] /Users/tronghung/.gradle/caches/transforms-3/84e5c674902ef2451868e710ef65bf81/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:22:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/tronghung/.gradle/caches/transforms-3/7bd35154ee199235721a7ae9943790d2/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
+116                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+116-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/tronghung/.gradle/caches/transforms-3/7bd35154ee199235721a7ae9943790d2/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/tronghung/.gradle/caches/transforms-3/7bd35154ee199235721a7ae9943790d2/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/tronghung/.gradle/caches/transforms-3/7bd35154ee199235721a7ae9943790d2/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
+119                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+119-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/tronghung/.gradle/caches/transforms-3/7bd35154ee199235721a7ae9943790d2/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/tronghung/.gradle/caches/transforms-3/7bd35154ee199235721a7ae9943790d2/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-iid:21.1.0] /Users/tronghung/.gradle/caches/transforms-3/365c2360bae04ee5654ed987b4895ec1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+122                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+122-->[com.google.firebase:firebase-iid:21.1.0] /Users/tronghung/.gradle/caches/transforms-3/365c2360bae04ee5654ed987b4895ec1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-iid:21.1.0] /Users/tronghung/.gradle/caches/transforms-3/365c2360bae04ee5654ed987b4895ec1/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:17.2.0] /Users/tronghung/.gradle/caches/transforms-3/1305b79d0809128700c9d9322a123d28/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+125-->[com.google.firebase:firebase-installations:17.2.0] /Users/tronghung/.gradle/caches/transforms-3/1305b79d0809128700c9d9322a123d28/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:17.2.0] /Users/tronghung/.gradle/caches/transforms-3/1305b79d0809128700c9d9322a123d28/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-installations:17.2.0] /Users/tronghung/.gradle/caches/transforms-3/1305b79d0809128700c9d9322a123d28/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+128                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+128-->[com.google.firebase:firebase-installations:17.2.0] /Users/tronghung/.gradle/caches/transforms-3/1305b79d0809128700c9d9322a123d28/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-installations:17.2.0] /Users/tronghung/.gradle/caches/transforms-3/1305b79d0809128700c9d9322a123d28/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/2d9d0cf836ec0110b534ae15fa5611e0/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+131                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+131-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/2d9d0cf836ec0110b534ae15fa5611e0/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/2d9d0cf836ec0110b534ae15fa5611e0/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+134                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+134-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+136        </service>
+137
+138        <provider
+138-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+139            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+139-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+140            android:authorities="com.example.untitled15.flutter.image_provider"
+140-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+141            android:exported="false"
+141-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+142            android:grantUriPermissions="true" >
+142-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+143            <meta-data
+143-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+144                android:name="android.support.FILE_PROVIDER_PATHS"
+144-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+145                android:resource="@xml/flutter_image_picker_file_paths" />
+145-->[:image_picker_android] /Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+146        </provider>
+147
+148        <activity
+148-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+149            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+149-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+155                <action android:name="android.intent.action.VIEW" />
+155-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+155-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+157-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+158-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+159
+160                <data
+160-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+161                    android:host="firebase.auth"
+161-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+162                    android:path="/"
+162-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+163                    android:scheme="genericidp" />
+163-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+167            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+167-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+168            android:excludeFromRecents="true"
+168-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+169            android:exported="true"
+169-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+170            android:launchMode="singleTask"
+170-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+171-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+172            <intent-filter>
+172-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+173                <action android:name="android.intent.action.VIEW" />
+173-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+173-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+174
+175                <category android:name="android.intent.category.DEFAULT" />
+175-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+175-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+176                <category android:name="android.intent.category.BROWSABLE" />
+176-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+176-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+177
+178                <data
+178-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+179                    android:host="firebase.auth"
+179-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+180                    android:path="/"
+180-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+181                    android:scheme="recaptcha" />
+181-->[com.google.firebase:firebase-auth:22.3.0] /Users/tronghung/.gradle/caches/transforms-3/b905d4447952db92a87cdf9b33f95cfa/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+182            </intent-filter>
+183        </activity>
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+187            android:authorities="com.example.untitled15.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:20.4.2] /Users/tronghung/.gradle/caches/transforms-3/764b14d797a74075a85fd80ad3112e25/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+191
+192        <activity
+192-->[com.google.android.gms:play-services-base:18.1.0] /Users/tronghung/.gradle/caches/transforms-3/d909c95a9521814e82faccf66994e646/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+193            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+193-->[com.google.android.gms:play-services-base:18.1.0] /Users/tronghung/.gradle/caches/transforms-3/d909c95a9521814e82faccf66994e646/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-base:18.1.0] /Users/tronghung/.gradle/caches/transforms-3/d909c95a9521814e82faccf66994e646/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-base:18.1.0] /Users/tronghung/.gradle/caches/transforms-3/d909c95a9521814e82faccf66994e646/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+196
+197        <meta-data
+197-->[com.google.android.gms:play-services-basement:18.1.0] /Users/tronghung/.gradle/caches/transforms-3/f7a531f44d41299454dbf6e1a18e343e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+198            android:name="com.google.android.gms.version"
+198-->[com.google.android.gms:play-services-basement:18.1.0] /Users/tronghung/.gradle/caches/transforms-3/f7a531f44d41299454dbf6e1a18e343e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+199            android:value="@integer/google_play_services_version" />
+199-->[com.google.android.gms:play-services-basement:18.1.0] /Users/tronghung/.gradle/caches/transforms-3/f7a531f44d41299454dbf6e1a18e343e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+200
+201        <uses-library
+201-->[androidx.window:window:1.0.0-beta04] /Users/tronghung/.gradle/caches/transforms-3/ff0da3411c60a355fb11f5678a36b245/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+202            android:name="androidx.window.extensions"
+202-->[androidx.window:window:1.0.0-beta04] /Users/tronghung/.gradle/caches/transforms-3/ff0da3411c60a355fb11f5678a36b245/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+203            android:required="false" />
+203-->[androidx.window:window:1.0.0-beta04] /Users/tronghung/.gradle/caches/transforms-3/ff0da3411c60a355fb11f5678a36b245/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+204        <uses-library
+204-->[androidx.window:window:1.0.0-beta04] /Users/tronghung/.gradle/caches/transforms-3/ff0da3411c60a355fb11f5678a36b245/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+205            android:name="androidx.window.sidecar"
+205-->[androidx.window:window:1.0.0-beta04] /Users/tronghung/.gradle/caches/transforms-3/ff0da3411c60a355fb11f5678a36b245/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+206            android:required="false" />
+206-->[androidx.window:window:1.0.0-beta04] /Users/tronghung/.gradle/caches/transforms-3/ff0da3411c60a355fb11f5678a36b245/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+207
+208        <provider
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+209            android:name="androidx.startup.InitializationProvider"
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+210            android:authorities="com.example.untitled15.androidx-startup"
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+211            android:exported="false" >
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+212            <meta-data
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+213                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+214                android:value="androidx.startup" />
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+215        </provider>
+216
+217        <receiver
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+218            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+218-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+219            android:directBootAware="false"
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+220            android:enabled="true"
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+221            android:exported="true"
+221-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+222            android:permission="android.permission.DUMP" >
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+223            <intent-filter>
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+224                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+225            </intent-filter>
+226            <intent-filter>
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+227                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+227-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+228            </intent-filter>
+229            <intent-filter>
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+230                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+230-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+230-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+231            </intent-filter>
+232            <intent-filter>
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+233                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/tronghung/.gradle/caches/transforms-3/423b9e7b74e310af378472602260d27b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+234            </intent-filter>
+235        </receiver>
+236    </application>
+237
+238</manifest>

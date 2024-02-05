@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/shared_preferences_android/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/shared_preferences_android/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/shared_preferences_android/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/shared_preferences_android/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/shared_preferences_android/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/shared_preferences_android/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_action.xml"
+    }
+]

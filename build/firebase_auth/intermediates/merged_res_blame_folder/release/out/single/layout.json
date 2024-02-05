@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/f8054dee32b9fd320163ec2b2f09cc61/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/127f9c6bab8628609acc8caea9d84c21/transformed/browser-1.4.0/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/Users/tronghung/Documents/GitHub/ltuddd_shop/shopapp_k2n2/build/firebase_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/tronghung/.gradle/caches/transforms-3/127f9c6bab8628609acc8caea9d84c21/transformed/browser-1.4.0/res/layout/browser_actions_context_menu_row.xml"
+    }
+]

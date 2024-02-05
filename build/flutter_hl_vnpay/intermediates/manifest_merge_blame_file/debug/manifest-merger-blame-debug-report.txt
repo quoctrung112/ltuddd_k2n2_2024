@@ -1,0 +1,16 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.hlsolutions.flutter_hl_vnpay.flutter_hl_vnpay" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="16"
+7-->/Users/tronghung/.pub-cache/hosted/pub.dev/flutter_hl_vnpay-2.0.1/android/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="16" />
+8-->/Users/tronghung/.pub-cache/hosted/pub.dev/flutter_hl_vnpay-2.0.1/android/src/main/AndroidManifest.xml
+9
+10    <application>
+10-->/Users/tronghung/.pub-cache/hosted/pub.dev/flutter_hl_vnpay-2.0.1/android/src/main/AndroidManifest.xml:4:5-5:19
+11    </application>
+12
+13</manifest>
